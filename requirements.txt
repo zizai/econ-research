@@ -1,0 +1,6 @@
+notebook
+pandas
+pyreadstat
+scikit-learn
+seaborn
+statsmodels
