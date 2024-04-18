@@ -284,6 +284,8 @@ def run_DFL(X, y, w, print_summary=True, return_marginal_effects=False):
         Psi_x: reweighting factor
     
     '''
+    X = sm.add_constant(X)
+
     # run probit
     if return_marginal_effects:
         prob_y1_given_X, probit_marginal_effects = run_probit(y, X, w, print_summary=print_summary, return_marginal_effects=return_marginal_effects)
