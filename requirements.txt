@@ -4,3 +4,4 @@ pyreadstat
 scikit-learn
 seaborn
 statsmodels
+tqdm
